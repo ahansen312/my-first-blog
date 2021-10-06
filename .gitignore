@@ -1,0 +1,38 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Oct  6 08:57:22 2021
+
+@author: ahansen
+"""
+# Python
+*.pyc
+*~
+__pycache__
+
+# Env
+.env
+myvenv/
+venv/
+
+# Database
+db.sqlite3
+
+# Static folder at project root
+/static/
+
+# macOS
+._*
+.DS_Store
+.fseventsd
+.Spotlight-V100
+
+# Windows
+Thumbs.db*
+ehthumbs*.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Visual Studio
+.vscode/
+.history/
+*.code-workspace
